@@ -1,0 +1,44 @@
+* {
+  font-size: 2rem;
+  font-family: -apple-system;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.play {
+  display: flex;
+}
+.message {
+  font-size: 1rem;
+  background-color: lightgoldenrodyellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 36px;
+  width: 400px;
+  text-align: center;
+
+}
+
+.start,
+.restart {
+  font-size: 1rem;
+  width: 200px;
+  background-color: royalblue;
+  border: 1px solid black;
+}
+.container {
+  height: 400px;
+  width: 400px;
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
